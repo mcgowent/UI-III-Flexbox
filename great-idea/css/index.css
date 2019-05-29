@@ -271,9 +271,11 @@ p {
 .services button {
 	background-color: white;
 	color: rgb(87, 81, 81);
-	border: 1px solid #868383;
+	border: 1px solid #3a3939;
 	padding: 4px 36px;
 	border-radius: 5px;
+	width: 40%;
+	height: 20%;
 }
 
 .grey_box {
@@ -284,6 +286,20 @@ p {
 	margin-bottom: 35px;
 	width: 422.5px;
 	height: 250px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card p {
+	font-size: 105%;
+}
+
+.card h2 {
+	margin: 0;
 }
 
 .row {
@@ -298,4 +314,46 @@ p {
 	border-top: 1px solid rgb(160, 160, 160);
 	margin-top: 20px;
 	padding-top: 35px;
+}
+
+.border_box_bold {
+	border-top: 2px solid rgb(56, 56, 56);
+	margin-top: 20px;
+	padding-top: 35px;
+}
+
+.child {
+	/* Child */
+	width: 45%;
+
+}
+
+.child img {
+	max-width: 400px;
+	height: auto;
+}
+
+.child p {
+	font-size: 110%;
+}
+
+.child li {
+	list-style-type: square;
+	list-style-position: inside;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.copyright {
+	margin: 75px 0;
+	text-align: center;
+}
+
+.h1 {
+	font-size: 140%;
+	margin-top: 25px;
+}
+
+.services-header-img {
+	margin-top: 15px;
 }
