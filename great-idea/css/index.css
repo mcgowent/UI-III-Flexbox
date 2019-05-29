@@ -266,4 +266,36 @@ p {
 }
 
 
-/* ========= About ========== */
+/* ========= Services ========== */
+
+.services button {
+	background-color: white;
+	color: rgb(87, 81, 81);
+	border: 1px solid #868383;
+	padding: 4px 36px;
+	border-radius: 5px;
+}
+
+.grey_box {
+	/* Child */
+	border: 1px solid rgb(92, 87, 87);
+	background: rgb(224, 224, 224);
+	padding: 20px;
+	margin-bottom: 35px;
+	width: 422.5px;
+	height: 250px;
+}
+
+.row {
+	/* Parent */
+	display: flex;
+	width: 880px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.border_box {
+	border-top: 1px solid rgb(160, 160, 160);
+	margin-top: 20px;
+	padding-top: 35px;
+}
