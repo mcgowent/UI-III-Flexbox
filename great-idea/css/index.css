@@ -267,13 +267,3 @@ p {
 
 
 /* ========= About ========== */
-
-.about_main_left {
-	width: 55%;
-	display: inline-block;
-	text-align: center;
-}
-
-.about_main_left h1 {
-	font-size: 800%;
-}
